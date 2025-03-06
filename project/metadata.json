@@ -1,6 +1,6 @@
 {
     "externalUuid4": "10bb3c89-92a1-464e-b14c-2c89dcdbf755", 
-    "key": "builddockercontainers", 
-    "name": "Build Docker Containers", 
+    "key": "docker", 
+    "name": "Docker", 
     "revision": "145c6dc54454"
 }
