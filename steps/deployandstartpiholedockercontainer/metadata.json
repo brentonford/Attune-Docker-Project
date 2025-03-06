@@ -1,27 +1,67 @@
 {
     "actionOnStepFail": "stop", 
-    "concurrency": 1, 
+    "blueprintName": "Deploy and Start PiHole docker container", 
+    "blueprintUuid": "162828de-bc38-4f74-a271-4bd51aa5b589", 
+    "cloneUrl": null, 
     "enabled": true, 
     "externalUuid4": "162828de-bc38-4f74-a271-4bd51aa5b589", 
     "isBlueprint": true, 
     "key": "deployandstartpiholedockercontainer", 
-    "links": [
+    "name": "Deploy and Start PiHole docker container (Moved)", 
+    "parameterMap": [
         {
-            "stepKey": "deploydockercomposefilepihole"
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.LinuxServer", 
+            "childParameterUuid": "13929252-e640-49c5-91e5-1035d90cfde0", 
+            "childProjectName": null, 
+            "childProjectUuid": "b0cbd14c-a57b-4efb-b767-d482fa5e23b6", 
+            "childProjectVersion": "master", 
+            "parentParameterKey": "linuxnode", 
+            "parentStaticTextValue": null
         }, 
         {
-            "stepKey": "setownershipofdockerfiles"
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.LinOsCred", 
+            "childParameterUuid": "64115cdf-d397-435d-94b8-28424676c453", 
+            "childProjectName": null, 
+            "childProjectUuid": "b0cbd14c-a57b-4efb-b767-d482fa5e23b6", 
+            "childProjectVersion": "master", 
+            "parentParameterKey": "dockerlinuxuser", 
+            "parentStaticTextValue": null
         }, 
         {
-            "stepKey": "createandstartpiholedockercontainer"
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "1c14a4bf-bddd-4f3f-be72-a9bfbb17f817", 
+            "childProjectName": null, 
+            "childProjectUuid": "b0cbd14c-a57b-4efb-b767-d482fa5e23b6", 
+            "childProjectVersion": "master", 
+            "parentParameterKey": "timezone", 
+            "parentStaticTextValue": null
         }, 
         {
-            "stepKey": "dockercontainersrunning"
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.LinuxServer", 
+            "childParameterUuid": "99e4437a-e28c-421e-bf49-10fda73b502c", 
+            "childProjectName": null, 
+            "childProjectUuid": "b0cbd14c-a57b-4efb-b767-d482fa5e23b6", 
+            "childProjectVersion": "master", 
+            "parentParameterKey": "dockernode", 
+            "parentStaticTextValue": null
         }, 
         {
-            "stepKey": "confirmpiholewebsiteisup"
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.LinOsCred", 
+            "childParameterUuid": "2db76ee7-8d04-4de3-bfd4-61b98790d485", 
+            "childProjectName": null, 
+            "childProjectUuid": "b0cbd14c-a57b-4efb-b767-d482fa5e23b6", 
+            "childProjectVersion": "master", 
+            "parentParameterKey": "linuxuserroot", 
+            "parentStaticTextValue": null
         }
     ], 
-    "name": "Deploy and Start PiHole docker container", 
-    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+    "projectName": "Pi-hole", 
+    "projectUuid": "b0cbd14c-a57b-4efb-b767-d482fa5e23b6", 
+    "projectVersion": "master", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
 }
