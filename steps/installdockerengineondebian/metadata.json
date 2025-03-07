@@ -7,7 +7,7 @@
     "key": "installdockerengineondebian", 
     "links": [
         {
-            "stepKey": "updatesthepackagelistsforsoftwarerepositories"
+            "stepKey": "updatethepackagelistsforsoftwarerepositories"
         }, 
         {
             "stepKey": "installcacertificatesandcurlpackages"
@@ -16,7 +16,7 @@
             "stepKey": "addtheofficialdockerrepositorytoyourpackagesources"
         }, 
         {
-            "stepKey": "updatesthepackagelistsforsoftwarerepositories"
+            "stepKey": "updatethepackagelistsforsoftwarerepositories"
         }, 
         {
             "stepKey": "installthedockerpackages"
