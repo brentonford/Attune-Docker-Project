@@ -13,22 +13,7 @@
             "stepKey": "updateresolvconf"
         }, 
         {
-            "stepKey": "deploydockercomposefilepihole"
-        }, 
-        {
-            "stepKey": "setownershipofdockerfiles"
-        }, 
-        {
-            "stepKey": "downloadthepiholedockerimage"
-        }, 
-        {
-            "stepKey": "createandstartpiholedockercontainer"
-        }, 
-        {
-            "stepKey": "dockercontainersrunning"
-        }, 
-        {
-            "stepKey": "confirmpiholewebsiteisup"
+            "stepKey": "deployandstartpiholedockercontainer"
         }
     ], 
     "name": "Setup Ubuntu OS and Start PiHole docker container", 

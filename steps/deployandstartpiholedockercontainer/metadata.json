@@ -1,24 +1,14 @@
 {
     "actionOnStepFail": "stop", 
-    "blueprintName": "Deploy and Start PiHole docker container", 
+    "blueprintName": null, 
     "blueprintUuid": "162828de-bc38-4f74-a271-4bd51aa5b589", 
-    "cloneUrl": null, 
+    "cloneUrl": "https://github.com/brentonford/Attune-Pi-hole-Project.git", 
     "enabled": true, 
     "externalUuid4": "162828de-bc38-4f74-a271-4bd51aa5b589", 
-    "isBlueprint": true, 
+    "isBlueprint": false, 
     "key": "deployandstartpiholedockercontainer", 
-    "name": "Deploy and Start PiHole docker container (Moved)", 
+    "name": "Deploy and Start PiHole docker container", 
     "parameterMap": [
-        {
-            "childParameterName": null, 
-            "childParameterType": "c.s.s.b.phv.LinuxServer", 
-            "childParameterUuid": "13929252-e640-49c5-91e5-1035d90cfde0", 
-            "childProjectName": null, 
-            "childProjectUuid": "b0cbd14c-a57b-4efb-b767-d482fa5e23b6", 
-            "childProjectVersion": "master", 
-            "parentParameterKey": "linuxnode", 
-            "parentStaticTextValue": null
-        }, 
         {
             "childParameterName": null, 
             "childParameterType": "c.s.s.b.phv.LinOsCred", 
@@ -48,19 +38,9 @@
             "childProjectVersion": "master", 
             "parentParameterKey": "dockernode", 
             "parentStaticTextValue": null
-        }, 
-        {
-            "childParameterName": null, 
-            "childParameterType": "c.s.s.b.phv.LinOsCred", 
-            "childParameterUuid": "2db76ee7-8d04-4de3-bfd4-61b98790d485", 
-            "childProjectName": null, 
-            "childProjectUuid": "b0cbd14c-a57b-4efb-b767-d482fa5e23b6", 
-            "childProjectVersion": "master", 
-            "parentParameterKey": "linuxuserroot", 
-            "parentStaticTextValue": null
         }
     ], 
-    "projectName": "Pi-hole", 
+    "projectName": null, 
     "projectUuid": "b0cbd14c-a57b-4efb-b767-d482fa5e23b6", 
     "projectVersion": "master", 
     "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
