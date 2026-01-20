@@ -1,0 +1,18 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "f8dc6925-3ac2-4bd7-9b86-5e18966b7ca5", 
+    "isBlueprint": false, 
+    "key": "addtherepositorytoaptsourceforubuntu", 
+    "links": [
+        {
+            "stepKey": "addthedockerrepositorytoyoursystemssoftwaresourcesonubuntu"
+        }, 
+        {
+            "stepKey": "updatethepackagelistsforsoftwarerepositories"
+        }
+    ], 
+    "name": "Add the repository to Apt source for Ubuntu", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

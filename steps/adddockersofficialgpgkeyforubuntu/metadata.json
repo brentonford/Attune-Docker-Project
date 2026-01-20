@@ -1,0 +1,27 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "2382f97b-ced5-4bcf-879e-fd5d6fd84687", 
+    "isBlueprint": false, 
+    "key": "adddockersofficialgpgkeyforubuntu", 
+    "links": [
+        {
+            "stepKey": "updatethepackagelistsforsoftwarerepositories"
+        }, 
+        {
+            "stepKey": "installcacertificatesandcurlpackages"
+        }, 
+        {
+            "stepKey": "createdirectoryetcaptkeyringstostoregpgkeys"
+        }, 
+        {
+            "stepKey": "downloadthedockergpgkeyonubuntu"
+        }, 
+        {
+            "stepKey": "makeetcaptkeyringsdockerascreadableforallusers"
+        }
+    ], 
+    "name": "Add Dockers official GPG key for Ubuntu", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

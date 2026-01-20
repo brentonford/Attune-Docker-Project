@@ -1,0 +1,36 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "d3d6d80d-08dd-4b77-99e1-5d4027560c0c", 
+    "isBlueprint": true, 
+    "key": "installdockerengineonubuntu", 
+    "links": [
+        {
+            "stepKey": "uninstallolddockerversions"
+        }, 
+        {
+            "stepKey": "adddockersofficialgpgkeyforubuntu"
+        }, 
+        {
+            "stepKey": "addtherepositorytoaptsourceforubuntu"
+        }, 
+        {
+            "stepKey": "installthedockerpackages"
+        }, 
+        {
+            "stepKey": "dockerservicestatus"
+        }, 
+        {
+            "stepKey": "createdockergroup"
+        }, 
+        {
+            "stepKey": "addusertodockergroup"
+        }, 
+        {
+            "stepKey": "verifythatthedockerinstallationissuccessful"
+        }
+    ], 
+    "name": "Install Docker Engine on Ubuntu", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

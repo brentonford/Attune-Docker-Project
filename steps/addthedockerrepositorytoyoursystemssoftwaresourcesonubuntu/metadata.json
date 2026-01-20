@@ -1,10 +1,10 @@
 {
     "actionOnStepFail": "stop", 
     "enabled": true, 
-    "externalUuid4": "db8203f6-f692-4736-9d30-d86510a77636", 
+    "externalUuid4": "078e2054-8ed9-433f-865b-61ef517c58d6", 
     "interpreter": 1, 
-    "key": "installthedockerpackages", 
-    "name": "Install the Docker packages", 
+    "key": "addthedockerrepositorytoyoursystemssoftwaresourcesonubuntu", 
+    "name": "add the Docker repository to your system\u2019s software sources on Ubuntu", 
     "osCredKey": "linuxuserroot", 
     "serverKey": "linuxnode", 
     "successExitCode": 0, 
