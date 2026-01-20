@@ -1,10 +1,10 @@
 {
     "actionOnStepFail": "stop", 
     "enabled": true, 
-    "externalUuid4": "65bd32c7-45da-4b87-84cb-ca4f9e01f977", 
+    "externalUuid4": "33fa6026-999b-46f5-9ff7-c0ec666ab416", 
     "interpreter": 1, 
-    "key": "addthedockerrepositorytoyoursystemssoftwaresources", 
-    "name": "add the Docker repository to your system\u2019s software sources", 
+    "key": "downloadthedockergpgkeyondebian", 
+    "name": "Download the Docker GPG key on Debian", 
     "osCredKey": "linuxuserroot", 
     "serverKey": "linuxnode", 
     "successExitCode": 0, 

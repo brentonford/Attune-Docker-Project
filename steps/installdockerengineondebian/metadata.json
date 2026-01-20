@@ -7,19 +7,19 @@
     "key": "installdockerengineondebian", 
     "links": [
         {
-            "stepKey": "updatethepackagelistsforsoftwarerepositories"
+            "stepKey": "uninstallolddockerversions"
         }, 
         {
-            "stepKey": "installcacertificatesandcurlpackages"
+            "stepKey": "adddockersofficialgpgkeyfordebian"
         }, 
         {
-            "stepKey": "addtheofficialdockerrepositorytoyourpackagesources"
-        }, 
-        {
-            "stepKey": "updatethepackagelistsforsoftwarerepositories"
+            "stepKey": "addtherepositorytoaptsourcefordebian"
         }, 
         {
             "stepKey": "installthedockerpackages"
+        }, 
+        {
+            "stepKey": "dockerservicestatus"
         }, 
         {
             "stepKey": "createdockergroup"

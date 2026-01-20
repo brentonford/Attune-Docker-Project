@@ -1,0 +1,27 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "41f37640-3392-44f9-832b-4e724493e8e1", 
+    "isBlueprint": false, 
+    "key": "adddockersofficialgpgkeyfordebian", 
+    "links": [
+        {
+            "stepKey": "updatethepackagelistsforsoftwarerepositories"
+        }, 
+        {
+            "stepKey": "installcacertificatesandcurlpackages"
+        }, 
+        {
+            "stepKey": "createdirectoryetcaptkeyringstostoregpgkeys"
+        }, 
+        {
+            "stepKey": "downloadthedockergpgkeyondebian"
+        }, 
+        {
+            "stepKey": "makeetcaptkeyringsdockerascreadableforallusers"
+        }
+    ], 
+    "name": "Add Dockers official GPG key for Debian", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

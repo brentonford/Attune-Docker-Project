@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "653ecd9d-cdb5-4a9a-abd5-4ddab6117ede", 
+    "interpreter": 1, 
+    "key": "dockerservicestatus", 
+    "name": "Docker service status", 
+    "osCredKey": "linuxuserroot", 
+    "serverKey": "dockernode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

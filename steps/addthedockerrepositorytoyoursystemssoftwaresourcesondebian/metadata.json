@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "65bd32c7-45da-4b87-84cb-ca4f9e01f977", 
+    "interpreter": 1, 
+    "key": "addthedockerrepositorytoyoursystemssoftwaresourcesondebian", 
+    "name": "add the Docker repository to your system\u2019s software sources on Debian", 
+    "osCredKey": "linuxuserroot", 
+    "serverKey": "linuxnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}
