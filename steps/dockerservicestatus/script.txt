@@ -1,1 +1,1 @@
-systemctl status docker
+sudo systemctl status docker

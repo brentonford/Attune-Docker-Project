@@ -1,1 +1,1 @@
-chmod -v a+r /etc/apt/keyrings/docker.asc
+sudo chmod -v a+r /etc/apt/keyrings/docker.asc

@@ -1,1 +1,6 @@
-apt remove -y $(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc | cut -f1)
+packages_to_remove=$(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc 2>/dev/null | cut -f1)
+if [ -n "$packages_to_remove" ]; then
+  apt remove -y $packages_to_remove
+else
+  echo "nothing to uninstall!"
+fi
