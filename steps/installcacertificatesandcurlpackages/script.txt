@@ -1,1 +1,1 @@
-sudo apt install -y ca-certificates curl
+apt install -y ca-certificates curl
