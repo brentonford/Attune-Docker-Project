@@ -6,7 +6,7 @@
     "key": "dockerservicestatus", 
     "name": "Docker service status", 
     "osCredKey": "linuxuserroot", 
-    "serverKey": "dockernode", 
+    "serverKey": "linuxnode", 
     "successExitCode": 0, 
     "type": "com.servertribe.attune.tuples.StepSshTuple"
 }

@@ -1,2 +1,2 @@
-usermod -aG docker {dockerLinuxUser.user}
-groups {dockerLinuxUser.user}
+usermod -aG docker {linuxUserNonPrivileged.user}
+groups {linuxUserNonPrivileged.user}
